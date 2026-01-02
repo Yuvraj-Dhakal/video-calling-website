@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@zegocloud/zego-uikit-prebuilt/zego-uikit-prebuilt.js"></script>
+
+    <title>video</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Zego UIKit prebuilt (global) note:
+         The package versions on public CDNs are not always available. For reliable
+         loading, download the Zego UIKit Prebuilt file and place it at
+         `public/libs/zego-uikit-prebuilt.js` (create the `libs` folder). Then
+         the app will load the local file automatically.
+
+         Example (manual):
+           - Download the SDK file from Zego's official distribution
+             or your account dashboard.
+           - Save as: public/libs/zego-uikit-prebuilt.js
+
+         If you still prefer CDN, uncomment one of the lines below and ensure
+         your network allows access to the CDN.
+    -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/zego-uikit-prebuilt@latest/dist/zego-uikit-prebuilt.js"></script> -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
