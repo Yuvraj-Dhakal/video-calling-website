@@ -1,16 +1,110 @@
-# React + Vite
+# Video Calling Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time video calling web application built using React and Vite. The application allows users to create and join meeting rooms through a simple and responsive interface using the ZEGOCLOUD Video Call SDK.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Home Page
 
-## React Compiler
+![Home Page](./screenshots/home-page.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Video Meeting
 
-## Expanding the ESLint configuration
+![Video Meeting](./screenshots/video-meeting.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Real-time video calling
+- Create and join meeting rooms
+- Responsive user interface
+- Dynamic room routing using React Router
+- Fast development with Vite
+- Clean and modern design
+
+---
+
+## Technologies Used
+
+- React.js
+- Vite
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- React Router
+- ZEGOCLOUD Video Call SDK
+
+---
+
+## Project Structure
+
+```text
+video-calling-website/
+├── public/
+├── screenshots/
+├── src/
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Yuvraj-Dhakal/video-calling-website.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd video-calling-website
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Security
+
+For security reasons, project credentials have been removed from this public repository. To run the application, create your own ZEGOCLOUD project and configure it with your own credentials.
+
+---
+
+## Future Improvements
+
+- Backend token generation
+- User authentication
+- Screen sharing
+- In-meeting chat
+- Meeting recording
+- Meeting scheduling
+- Improved UI/UX
+- Production deployment
+
+---
+
+## License
+
+This project is intended for educational and portfolio purposes.
