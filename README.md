@@ -104,7 +104,15 @@ For security reasons, project credentials have been removed from this public rep
 - Production deployment
 
 ---
+## Author
+
+**Yuv Raj Dhakal**  
+
+Bachelor of Computer Science and Information Technology (B.Sc. CSIT)  
+Software Engineering Enthusiast | Frontend Developer | AI & Machine Learning Learner  
+
+---
 
 ## License
 
-This project is intended for educational and portfolio purposes.
+This project is intended for educational, academic, and research purposes.
