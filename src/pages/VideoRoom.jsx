@@ -26,8 +26,10 @@ const VideoRoom = () => {
         return;
       }
 
-      const appID = 123456789; // Yuvraj AppID (ensure this is correct for your project)
-      const serverSecret = "e8f11d38868f2802a80160969ed39f64";
+     const appID = "YOUR_APP_ID";
+const serverSecret = "YOUR_SERVER_SECRET";
+
+
 
       const expireAt = (Math.floor(Date.now() / 1000) + 60 * 60).toString(); // 1 hour from now (in seconds)
 
